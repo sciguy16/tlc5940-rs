@@ -1,0 +1,17 @@
+[package]
+name = "tlc5940"
+version = "0.1.0"
+authors = ["David Young <david@thedavidyoung.co.uk>"]
+edition = "2018"
+categories = ["embedded", "hardware-support", "no-std"]
+readme = "README.md"
+description = "A platform agnostic driver to interface the TLC5940 (LED driver)"
+documentation = "https://docs.rs/tlc5940"
+keywords = ["embedded-hal-driver", "tlc5940", "ledcontrol"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/sciguy16/tlc5940-rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+embedded-hal = "1.0.0-alpha.1"
